@@ -1,0 +1,35 @@
+.addreviewbtn {
+    font-size: 13px;
+    padding: 10px;
+}
+.ecard{
+    width: 320px!important;
+    padding: 1.5rem;
+    
+}
+.ecard:hover{
+    cursor: pointer;
+    box-shadow:6px 6px 6px rgba(0,0,0,0.2);
+}
+.empmain{    
+    width: 83%;
+    display: block;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+.empdata{
+    white-space: nowrap;
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;    
+}
+@media screen and (max-width:576px) {
+    .addreviewbtn {
+        font-size: 10px;
+        padding: 5px;
+    }
+}
+.offprofile::-webkit-scrollbar {
+    display: none !important;
+}

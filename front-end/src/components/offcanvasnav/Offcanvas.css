@@ -1,0 +1,11 @@
+.offtog:hover{
+    cursor: pointer;
+}
+.offitem{
+    text-decoration: none;
+    color: grey;
+    font-size: 1.25rem;
+}
+.offitem:hover{
+    color: black;
+}
